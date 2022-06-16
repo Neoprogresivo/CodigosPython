@@ -1,3 +1,19 @@
+#Ejercicio GuíaEjerciciosFuncionesPrte1:
+#Crear un menú con las siguientes opciones:
+#Número Primo
+#Factorial
+#Palíndrome
+#Salir
+
+#Cada opción debe ser una función creada por usted.
+#La opción 1, debe ingresar un número entre 1 y 15. Indicar si es Primo.
+#La opción 2, debe ingresar un número positivo entre 3 y 10. Calcule su factorial.
+#La opción 3, debe ingresar una frase e indicar si es o no Palíndrome (se escribe igual al revés, ejemplo OSO).
+#La opción 4, salir del programa con un mensaje y su nombre como autor del programa.
+#Cristián Rojas C.
+#2022-06-16
+#V 1.0
+
 def esPrimo(numero):
     primo = True
     for i in range(2,numero):
