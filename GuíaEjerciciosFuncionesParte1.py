@@ -1,7 +1,6 @@
 def esPrimo(numero):
     primo = True
     for i in range(2,numero):
-        print(i)
         if numero%i == 0:
             primo = False
             break
@@ -18,7 +17,6 @@ def esPalindrome(texto):
     if texto == texto[::-1]:
         palindrome = True
     return palindrome
-
 
 while True:
     print("♫MENU♫")
@@ -47,10 +45,8 @@ while True:
             else:
                 print("Desarrollado por Cristián Rojas C.")
                 print("Adios")
-                break
-                
+                break                
         else:
-            print("Opción no válida.")
-        
+            print("Opción no válida.")        
     except:
         print("Opción ingresada no es válida.")
